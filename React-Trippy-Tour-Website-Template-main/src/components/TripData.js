@@ -8,7 +8,7 @@ function TripData(props) {
       </div>
       <h4>{props.heading}</h4>
       <p>{props.text}</p>
-      <button><Link to={'/booknow'}style={{textDecoration:"none"}}>Book Now</Link></button>
+      <button><Link to={'/Package'}style={{textDecoration:"none"}}>Book Now</Link></button>
     </div>
   );
 }

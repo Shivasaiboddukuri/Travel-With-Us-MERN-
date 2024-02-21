@@ -15,7 +15,7 @@ function Service() {
       url="/contact"
       btnClass="show"
       /><br></br>
-      <h1>Message us to get package details</h1>
+      <h1>Small Packages</h1>
      
       <Trip/>
       <Footer/>

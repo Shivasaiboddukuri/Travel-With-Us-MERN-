@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Signup from "./routes/Signup";
 import SignIn from "./routes/SignIn";
 import Booknow from "./routes/Booknow";
+import Package from "./components/Package";
 
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
     <Route path="/signup" element={ <Signup />}/>
     <Route path="/signin" element={ <SignIn />}/>
     <Route path="/booknow" element={ <Booknow />}/>
+    <Route path="/Package" element={ <Package />}/>
    
 </Routes>
 

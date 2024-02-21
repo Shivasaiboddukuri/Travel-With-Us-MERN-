@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import { Link } from "react-router-dom";
 function SignIn() {
     let navigate=useNavigate()
     let [formdata,setformdata]=useState({
@@ -59,7 +60,12 @@ function SignIn() {
       <form>
         <input name='email' value={formdata.email} type="email" onChange={HandleChange} placeholder="Email / PhoneNumber"/>
         <input name='password'value={formdata.password} onChange={HandleChange} placeholder="Password" type='password'/>
-        <button onClick={onsubmit}>Send</button>
+        <button onClick={onsubmit}>Sign In</button>
+         <br></br>
+         <br></br>
+        <h4>New user ?</h4>
+        <br></br>
+        <button style={{width:"200px",position:"relative",left:"15rem"}} > <Link to={'/signup'} style={{textDecoration:"none"}}>Register</Link></button>
       </form>
     </div>
     </div>

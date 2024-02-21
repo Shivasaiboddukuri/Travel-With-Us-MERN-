@@ -15,7 +15,7 @@ function Home() {
   title="We Help You Travel "
   text="we make your trip memorable."
   buttonText="Message Us"
-  url="/signin"
+  url="/contact"
   btnClass="show"
 
 

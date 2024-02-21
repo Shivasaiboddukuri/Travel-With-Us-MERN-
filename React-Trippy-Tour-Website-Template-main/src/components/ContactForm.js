@@ -26,6 +26,7 @@ function ContactForm() {
       try{
         let response = await axios.post("http://localhost:5009/register",formdata)
         console.log(response)
+        alert('message is sent ')
       }catch(err){
         console.log(err)
 
@@ -43,7 +44,7 @@ function ContactForm() {
         <input placeholder="Email"value={formdata.email} onChange={handleOnchange} name='email'/>
         <input placeholder="Subject"value={formdata.subject} onChange={handleOnchange} name='subject'/>
         <textarea placeholder="Message" rows="4"value={formdata.message} onChange={handleOnchange} name='message'></textarea>
-        <button onClick={handlesubmit}  >Send</button>
+        <button onClick={handlesubmit}  >Send Message </button>
         
       </form>
     </div>

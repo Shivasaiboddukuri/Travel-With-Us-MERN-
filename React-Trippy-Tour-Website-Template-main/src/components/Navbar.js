@@ -28,7 +28,7 @@ class Navbar extends Component {
           
         })}
 
-        <button > <Link to={'/signup'} style={{textDecoration:"none"}}>Sign Up</Link></button>
+       
         <button > <Link to={'/signIn'} style={{textDecoration:"none"}}>Sign In</Link></button>
          
         </ul>

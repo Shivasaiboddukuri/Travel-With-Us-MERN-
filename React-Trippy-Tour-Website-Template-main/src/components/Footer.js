@@ -9,13 +9,13 @@ const Footer = () => {
           <p>Make Your Memories By Us</p>
         </div>
         <div>
-          <a href="/">
+          <a href="https://www.facebook.com/login/">
             <i className="fa-brands fa-facebook-square"></i>
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/accounts/login/?hl=en">
             <i className="fa-brands fa-instagram-square"></i>
           </a>
-          <a href="/">
+          <a href="https://twitter.com/i/flow/login">
             <i className="fa-brands fa-twitter-square"></i>
           </a>
         </div>

@@ -6,7 +6,6 @@ function Booknow() {
     let [formdata,setFormData] = useState({
         Name:'',
         email:'',
-        places:'',
         persons:'',
         Date:''
         
@@ -43,7 +42,6 @@ function Booknow() {
       <form>
         <input placeholder="Name"value={formdata.Name} onChange={handleOnchange} name='Name'/>
         <input placeholder="Email"type='email'value={formdata.email} onChange={handleOnchange} name='email'/>
-        <input placeholder="place"value={formdata.places} onChange={handleOnchange} name='places'/>
         <input placeholder="persons" value={formdata.persons} onChange={handleOnchange} name='persons' />
         <input placeholder="Date" type='date'value={formdata.Date} onChange={handleOnchange} name='Date'/>
         <button onClick={handlesubmit}>Book Now</button>

@@ -4,6 +4,7 @@ import "./DestinationStyles.css";
 
 class DestinationData extends Component {
   render() {
+    
     return 
   }
 }
